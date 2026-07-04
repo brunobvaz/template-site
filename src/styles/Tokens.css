@@ -1,0 +1,108 @@
+/*
+Palette reference:
+https://coolors.co/111827-f8fafc-a3a380-ffffff-6b7280
+
+Default size: 1rem = 10px
+Scale source: 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Typography */
+  --font-family-base: "Rubik", Arial, sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1;
+  --line-height-heading: 1.2;
+  --line-height-body: 1.6;
+
+  --letter-spacing-default: 0;
+
+  --text-2: 0.2rem;
+  --text-4: 0.4rem;
+  --text-8: 0.8rem;
+  --text-12: 1.2rem;
+  --text-16: 1.6rem;
+  --text-24: 2.4rem;
+  --text-32: 3.2rem;
+  --text-48: 4.8rem;
+  --text-64: 6.4rem;
+  --text-80: 8rem;
+  --text-96: 9.6rem;
+  --text-128: 12.8rem;
+
+  --text-body: var(--text-16);
+  --text-small: var(--text-12);
+  --text-label: var(--text-12);
+  --text-heading-sm: var(--text-24);
+  --text-heading-md: var(--text-32);
+  --text-heading-lg: var(--text-48);
+  --text-display: var(--text-64);
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-main: #111827;
+  --color-primary: #a6b79d;
+  --color-accent: #a3a380;
+  --color-gray: #6b7280;
+
+  --tint-main: #f8fafc;
+  --tint-accent: #f2f1e8;
+  --tint-gray: #f3f4f6;
+
+  --shade-main: #030712;
+  --shade-accent: #73735a;
+  --shade-gray: #374151;
+
+  --color-text: var(--color-main);
+  --color-text-muted: var(--color-gray);
+  --color-background: var(--color-white);
+  --color-surface: var(--tint-main);
+  --color-border: #e5e7eb;
+
+  /* Shadow colors */
+  --shadow-color-main: 17 24 39;
+  --shadow-color-accent: 163 163 128;
+  --shadow-color-gray: 107 114 128;
+
+  /* Shadows */
+  --shadow-main: 0 2.4rem 4.8rem rgb(var(--shadow-color-main) / 8%);
+  --shadow-accent: 0 2.4rem 4.8rem rgb(var(--shadow-color-accent) / 14%);
+  --shadow-gray: 0 1.6rem 3.2rem rgb(var(--shadow-color-gray) / 10%);
+  --shadow-soft: var(--shadow-gray);
+
+  /* Border radius */
+  --radius-none: 0;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-full: 0;
+
+  /* Whitespaces */
+  --space-2: 0.2rem;
+  --space-4: 0.4rem;
+  --space-8: 0.8rem;
+  --space-12: 1.2rem;
+  --space-16: 1.6rem;
+  --space-24: 2.4rem;
+  --space-32: 3.2rem;
+  --space-48: 4.8rem;
+  --space-64: 6.4rem;
+  --space-80: 8rem;
+  --space-96: 9.6rem;
+  --space-128: 12.8rem;
+
+  --container-padding: var(--space-32);
+  --section-padding-sm: var(--space-64);
+  --section-padding-md: var(--space-80);
+  --section-padding-lg: var(--space-128);
+}

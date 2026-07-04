@@ -1,0 +1,91 @@
+
+/* ------------------------ */
+/* 01. TYPOGRAPHY           */
+/* ------------------------ */
+
+.heading-display,
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-default);
+  line-height: var(--line-height-heading);
+}
+
+.heading-display {
+  font-size: var(--text-display);
+}
+
+.heading-primary {
+  font-size: var(--text-heading-lg);
+}
+
+.heading-secondary {
+  font-size: var(--text-heading-md);
+}
+
+.heading-tertiary {
+  font-size: var(--text-heading-sm);
+}
+
+.text-lead {
+  font-size: var(--text-24);
+  line-height: var(--line-height-body);
+}
+
+.text-body {
+  font-size: var(--text-body);
+  line-height: var(--line-height-body);
+}
+
+.text-small {
+  font-size: var(--text-small);
+  line-height: var(--line-height-body);
+}
+
+.text-icon-label {
+  font-size: var(--text-12);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+}
+
+.eyebrow {
+  font-size: var(--text-12);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-default);
+  line-height: var(--line-height-tight);
+  text-transform: uppercase;
+}
+
+.text-inverse {
+  color: var(--color-white);
+}
+
+.text-inverse-muted {
+  color: rgb(255 255 255 / 78%);
+}
+
+
+
+/* ------------------------ */
+/*  01 LAYOUT               */
+/* ------------------------ */
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  width: 100%;
+}
+
+
+
+
+@media (max-width: 720px) {
+  .heading-display {
+    font-size: var(--text-48);
+  }
+
+  .text-lead {
+    font-size: var(--text-16);
+  }
+}
